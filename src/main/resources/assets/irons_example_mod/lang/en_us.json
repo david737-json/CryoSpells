@@ -1,7 +1,8 @@
 {
   "spell.irons_example_mod.super_heal": "Super Heal",
   "spell.irons_example_mod.super_heal.guide": "Cast to heal yourself.",
-
+  "item.irons_example_mod.void_pearl": "§cVoid Pearl",
+  "tooltip.voiditem": "§i§cbe careful",
   "ui.irons_example_mod.healing": "%d Healing",
 
   "item.irons_example_mod.example_magic_sword": "Example Magic Sword"

@@ -2,6 +2,7 @@ package io.redspace.irons_example_mod.registry;
 
 import io.redspace.irons_example_mod.IronsExampleMod;
 import io.redspace.irons_example_mod.items.ExampleMagicSword;
+import io.redspace.irons_example_mod.items.VoidItem;
 import io.redspace.ironsspellbooks.api.registry.SpellDataRegistryHolder;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,5 +18,6 @@ public class ItemRegistry {
     }
 
     public static final RegistryObject<Item> EXAMPLE_MAGIC_SWORD = ITEMS.register("example_magic_sword", () -> new ExampleMagicSword(new SpellDataRegistryHolder[]{new SpellDataRegistryHolder(ExampleSpellRegistry.SUPER_HEAL_SPELL, 1)}));
-
+    public static final RegistryObject<Item> VOID_PEARL = ITEMS.register("void_pearl",
+            () -> (new VoidItem(new Item.Properties().defaultDurability(99))));
 }

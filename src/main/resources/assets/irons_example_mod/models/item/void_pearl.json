@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "irons_example_mod:item/void_pearl"
+  }
+}
