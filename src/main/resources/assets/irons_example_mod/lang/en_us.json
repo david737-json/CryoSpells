@@ -5,5 +5,9 @@
   "tooltip.voiditem": "§i§cbe careful",
   "ui.irons_example_mod.healing": "%d Healing",
 
+  "spell.irons_example_mod.zerospell": "§bAbsolute Zero",
+  "ui.irons_example_mod.zerospell": "%d Absolute",
+  "spell.irons_example_mod.zerospell.guide": "",
+
   "item.irons_example_mod.example_magic_sword": "Example Magic Sword"
 }
